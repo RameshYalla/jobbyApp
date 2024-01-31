@@ -1,0 +1,108 @@
+.job {
+  width: 80%;
+  min-height: 100vh;
+}
+.bg {
+  min-height: 100vh;
+}
+.bg2 {
+  min-height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff;
+}
+.hr {
+  width: 100%;
+}
+.disc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  font-size: 3vh;
+  font-weight: 500;
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+}
+.BsBoxArrowUpRight {
+  margin-left: 10px;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-img {
+  height: 60%;
+  width: 40%;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  font-size: 3vh;
+  font-weight: 500;
+}
+
+.life_at {
+  display: flex;
+  flex-direction: row;
+}
+.life_at_img {
+  height: 80%;
+  width: 40%;
+}
+.life_at_para {
+  margin: 0px;
+  margin-right: 20px;
+  font-size: 2vh;
+}
+.similar-jobs {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.s-card {
+  width: 25vw;
+  margin-right: 20px;
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 20px;
+  color: #ffff;
+  padding-bottom: 30px;
+  min-height: 50vh;
+}
+.s-para {
+  font-size: 2vh;
+  width: 100%;
+}
+
+.s-img {
+  width: 30%;
+  height: 80%;
+}
+.loc {
+  font-size: 10px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .s-card {
+    width: 40%;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .s-img {
+    width: 30%;
+    height: 50%;
+  }
+}
